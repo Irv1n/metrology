@@ -447,6 +447,7 @@ with open('testlog_5700a.txt', 'wb') as b:
     uut.out_disable()
     uut.inst.write("LOCAL")  # bring 5720A to local operation
     dmm.inst.write("LOCAL")  # bring 3458A to local operation
+    pass
 
     b.write("Program completed!")
     b.close()
